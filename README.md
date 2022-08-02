@@ -1,5 +1,3 @@
 # apollonia.github.io
 
-
-
-sdfg
+어쩌라는건지모르겟음
