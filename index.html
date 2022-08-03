@@ -23,6 +23,7 @@ body {font-family: Arial;}
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+margin: 0px 120px 0px 120px;
 }
 
 /* Style the buttons inside the tab */
@@ -33,6 +34,7 @@ body {font-family: Arial;}
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
+  
   transition: 0.3s;
   font-size: 17px;
 }
@@ -53,6 +55,7 @@ body {font-family: Arial;}
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+margin: 0px 120px 0px 120px;
 }
 </style>
     
@@ -65,12 +68,13 @@ body {font-family: Arial;}
     </header>
     
 <h2>Announcements</h2>
-<p>The week of 08/08/2022</p>
-    <ul>
+<p>for the week of 08/08/2022</p>
+    <ul id="announcements">
     <li>License Status: Requested   (as of 08/08/2022)</li>
         <li>Lasted revised by @martini</li>
     </ul>
 
+<!----------------------------------------------------------------------------------------------->
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'London')">Requests</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Timeline</button>
@@ -78,18 +82,19 @@ body {font-family: Arial;}
 </div>
 
 <div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+  <h3>Requests</h3>
+  <p>댓글기능 여기 만들어야 하는데 생각해보니까 그게 급한게 아님.<br>포스팅이나 댓글 기능을 만드려면 로그인 기능 필요한데 그게 중요도가 많이 낮음.
+	<br>왜냠 라이선스 안 나오면 말짱꽝인 기능임.. 그래서 그냥 지금으로썬 웹 formatting 이랑 디자인에 focus.</p>
 </div>
 
 <div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p> 
+  <h3>Timeline</h3>
+  <p>**(weekly timeline calendar goes here)**<br>See More > **(<-this should link to full schedule)**</p> 
 </div>
 
 <div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+  <h3>Organization Chart</h3>
+  <p>**(조직도 graphic goes here. It should also provide links to each 부서 & 직원 profile)**</p>
 </div>
 
 <script>
@@ -107,6 +112,7 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
+<!----------------------------------------------------------------------------------------------->
 
     <!-- sidebar -->
     <aside id="sidebar">

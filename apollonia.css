@@ -42,7 +42,7 @@ h1 {
     display: inline-block;
 } */
 
-#sidebar {
+#sidebar{
     width: 150px;
     margin: 50px 30px 50px 120px;
     padding: 1.2rem 3rem;
@@ -50,6 +50,16 @@ h1 {
     border-radius: 1em; 
     display: inline-block;
     font-family: '나눔고딕';
+}
+
+#announcements {
+    overflow: hidden;
+    margin: 0px 120px 10px 120px;
+    padding: 1.2rem 3rem;
+    border: 2px solid rgb(216, 216, 216);
+    border-radius: 1em; 
+  border: 1px solid #ccc;
+  background-color: #ffffff;
 }
 
 /* categories */
