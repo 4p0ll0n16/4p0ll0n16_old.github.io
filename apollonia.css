@@ -68,7 +68,7 @@ h1 {
 
 .board {
     overflow: hidden;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 50px 0px 100px;
     padding: 0rem 1rem;
   border: 0.3px solid #f1f1f1;
 border-radius: 0.3em;
@@ -86,7 +86,7 @@ body {font-family: Arial;}
   border: 1px solid #5b5b5b;
   background-color: #5b5b5b;
   border-radius: 0.2em;
-  margin: 30px 50px 0px 50px;
+  margin: 30px 50px 0px 100px;
 }
 
 .tablinks {
@@ -120,21 +120,21 @@ body {font-family: Arial;}
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 12px;
+padding:5px 20px;
   border: 1px solid rgb(216, 216, 216);
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
  background-color: #f3f3f3;
   border-top: none;
-  margin: 0px 50px 10px 50px;
+  margin: 0px 50px 10px 100px;
 }
 
     
 /*************************************SIDEBAR******************************/
 #sidebar{
     width: 210px;
-    margin: 10px 0px 50px 50px;
-    padding: 0.3rem 1.5rem;
+    margin: 20px 0px 50px 100px;
+    padding: 1.2rem 1.5rem;
     border: 1px solid rgb(216, 216, 216);
     border-radius: 0.5em;
     display: inline-block;
