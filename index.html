@@ -17,7 +17,7 @@
 
 </head>
 
-<body background="./rose_curtain_dark.jpg" style="background-size: 100% 1085px; background-repeat: no-repeat;">
+<body background="./rose_curtain_dark.jpg" style="float:center;background-size: 100% 1080px; background-repeat: no-repeat;">
 <div class="banner">
     <header>
 	<div id="cooper">
@@ -31,7 +31,7 @@
 <div class="board">    
 <h2 style="color:#ffffff;margin: 20px 0px 10px 10px; font-size: 30px; font-family: bodoni mt;">Announcements &ensp;<span style="color:#ffffff;font-size:14px;font-family:sans-serif;font-weight:normal;">The week of 08/08/2022</span></h2>
     <ul id="announcements">
-	<li style="color: #ee2023;  font-size: 15px; margin: 0px 0px 10px 0px;">Our web is CURRENTLY <b>IN DEVELOPMENT</b> <br> It is <b>OPEN TEMPORARILY 8/7 09:00 ~ 8/11 00:00 EST</b> and will <b>SHUT DOWN</b> afterwards until our official launch on 8/26 09:00 EST</b></li>
+	<li style="color: #ee2023;  font-size: 15px; margin: 0px 0px 10px 0px;">Our web is CURRENTLY <b>IN DEVELOPMENT</b> <br> It is <b>OPEN TEMPORARILY 8/7 09:00 ~ 8/11 00:00 EST</b> and will <b>SHUT DOWN</b> afterwards until our official launch on 8/22 09:00 EST</b></li>
 	<li><b>Show for 2022~2023</b>: &emsp;Musical <i>Stone The Stone</i>&emsp; (subject to change)</i>
     	<li><b>License Status</b>&emsp;&emsp;&ensp;: &emsp;Requested  &emsp;(as of 08/08/2022)		&emsp;&emsp;-pinot</li>
 	<li><b>Club Reg Status </b>&emsp;&ensp;:&emsp; Pending  &emsp;&emsp; (as of 08/08/2022)		&emsp;&emsp;-sonny</li>
@@ -50,9 +50,38 @@
 
 <div id="London" class="tabcontent">
   <h3>Requests</h3>
-  <p>Any sort of generic requests to Santa Lucia</p>
-<p><span style="color:#ee2023;font-size:10px;"><br>martini 보아라--댓글기능 여기 만들어야 하는데 생각해보니까 그게 급한게 아님<br> bc 로그인 기능 is one of the least priorities.
-	그냥 지금으로썬 font end 디자인만 php sql 나중에..<br><br>-pinot</span></p>
+  <p>Any sort of generic requests to/from Santa Lucia/B members</p>
+
+<div class="request">
+	<p>
+	<b>Task Name:</b> Storyboard Animation Clear Ups
+	<br><b>Assigner:</b> hemingway &emsp;<b>Assignee:</b> K. Ryu
+	</p>
+</div>
+
+<div class="request">
+	<p>
+	<b>Task Name:</b> Title Animation 3D conversion
+	<br><b>Assigner:</b> hemingway & geneva &emsp;<b>Assignee:</b> K. Ryu
+	</p>
+</div>
+
+<div class="request">
+	<p>
+	<b>Task Name:</b> Stage Spec AutoCADing
+	<br><b>Assigner:</b> steve &emsp;<b>Assignee:</b> brandy
+	</p>
+</div>
+
+<div class="request">
+	<p>
+	<b>Task Name:</b> Scenario Team Meetup Request on 08/13 Sat 11AM 
+	<br><b>Assigner:</b> lillet &emsp;<b>Assignee:</b> sauv
+	</p>
+</div>
+
+<p><span style="color:#ee2023;font-size:10px;"><br>martini 보아라--댓글기능 여기 만들어야 하는데 생각해보니까 그게 급한게 아님<br> bc 로그인 기능 is one of our least priorities.
+	그냥 지금으로썬 display 만 하고 db 나중에<br><br>-pinot</span></p>
 </div>
 
 <div id="Paris" class="tabcontent">
@@ -62,6 +91,7 @@
 
 <div id="Tokyo" class="tabcontent" >
   <h3>Organization Chart - Fall 2022</h3>
+<center><img src="./orgchart3.png" alt="org chart" style="width: 400px; height:400px;"></center>
   <p><span style="color:#ee2023;font-size:10px;">**(조직도 graphic goes here. It should also include our currently running assignments, the assigners-->assignees, & links to each dept & member profile)**</span>
 </div>
 
@@ -90,47 +120,54 @@ function openCity(evt, cityName) {
 }
 </script>
 
-<!----------------------------------------------------------------------------------------------->
-<div id="recent" style="text-align:center;">
-<h2 style="text-align:left;font-size:20px;font-family:bodoni mt;margin:30px 0px 5px 120px;">Recent Uploads</h2>
+<!------------------------------do displays for now but should be fetching from database------------------------------------------------>
+<div class="recent">
 
-<video width="300" height="300" controls autoplay loop autoplay muted>
-  <source src="sts_promo_draft1.mp4" type="video/mp4">
+<h2 style="font-size:20px;font-family:bodoni mt;">Recent Works</h2>
+
+<center><div class="works">
+
+<video height="252" width="252" controls autoplay loop autoplay muted>
+  <source  src="sts_promo_draft1.mp4" type="video/mp4">
 </video>
+
+<video height="252" width="448" controls>
+	<source src="storyboard_0_000.mp4" type="video/mp4">
+</video>
+
+<iframe width="448" height="252" src="https://www.youtube.com/embed/XLyyfnpP7aA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div></center>
 </div>
+
+
 <!----------------------------------------------------------------------------------------------->
 
     <!-- sidebar 1 -->
     <aside id="sidebar">
 
-        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:14px;height:14px;margin: 0 5px 0 0;">Integrated</h2>
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Integrated</h2>
         <ul>
 	<li><a href="integrated.html">Integrated Directing Proposal</a></li>
         </ul>
-
-        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:14px;height:14px;margin: 0 5px 0 0;">Scenario</h2>
+<hr>
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Scenario</h2>
         <ul>
-            <li><a href="translation.html">Translation</a></li>
-            <li><a href="original_script.html">Script (Original)</a></li>
+<!---            <li><button onclick="openCity(event, 'translation')">Translation</a></li> ---->
+	<li><a href="scenario_translation.html">Translation</a></li>
+            <li><a href="original_script.html" >Script (Original)</a></li>
             <li><a href="adaptation.html">Script (Apollonian)</a></li>
         </ul>
 
-        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:14px;height:14px;margin: 0 5px 0 0;">Directing Proposals</h2>
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Directing Proposals</h2>
         <ul>
-            <li><a href="dir_number.html">Scenes</a></li>
-            <li><a href="dir_scnene.html">Music</a></li>
+	<li><a href="dir_scnene.html">Overview & Storyboard</a></li>
+	<li><a href="dir_sb.html">Animated Storyboard</a></li>
+            <li><a href="dir_number.html">Scene Drafts</a></li>
             <li><a href="dir_scnene.html">Choreography</a></li>
         </ul>
 
-        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:14px;height:14px;margin: 0 5px 0 0;">Music Production</h2>
-        <ul>
-            <li><a href="scores.html">Scores</a></li>
-            <li><a href="inst.html">Instrumental Covers</a></li>
-            <li><a href="midi.html">MIDI Covers</a></li>
-            <li><a href="vocal.html">Vocal Covers</a></li>
-        </ul>
-
-        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:14px;height:14px;margin: 0 5px 0 0;">Design</h2>
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Designs</h2>
         <ul>
             <li><a href="stage_design.html">Stage</a></li>
             <li><a href="props.html">Props</a></li>
@@ -138,29 +175,17 @@ function openCity(evt, cityName) {
             <li><a href="costume.html">Costumes</a></li>
             <li><a href="hair_makeup.html">Hair & Makeup</a></li>
         </ul>
-
-        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:14px;height:14px;margin: 0 5px 0 0;">Complete File Archive</h2>
-        <ul>
-              
-	<li><a href="script.html">Complete Script</a></li>
-            <li><a href="recording.html">Complete Instrumentals</a></li>
- 	<li><a href="scores.html">Complete Scores</a></li>
-	<li><a href="ref.html">Reference Media</a></li> 
-	<li><a href="animation.html">Screen Animations</a></li>
-         	<li><a href="code.html">Codes</a></li>
-            <li><a href="receipt.html">Shop List</a></li>
-        </ul>
         
-        <h2 class="category"><img src="./icon_617011094.png" alt="apol logo" style="width:14px;height:14px;margin: 0 5px 0 0;">Console Engineering</h2>
+        <h2 class="category"><img src="./icon_back.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Console Engineering</h2>
         <ul>
             <li><a href="stage_engineering.html">Stage</a></li>
-            <li><a href="prop_engineering.html"></a>Props</li>
+            <li><a href="prop_engineering.html">Props</a></li>
             <li><a href="limelight.html">Lighting</a></li>
             <li><a href="sound.html">Sound</a></li>
             <li><a href="auto.html">Automation Plans</a></il>
         </ul>
-
-        <h2 class="category"><img src="./icon_617011094.png" alt="apol logo" style="width:14px;height:14px;margin: 0 5px 0 0;">Santa Lucia</h2>
+<hr>
+        <h2 class="category"><img src="./icon_back.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Santa Lucia</h2>
         <ul>
 	<li><a href="schedule.html">Schedule 2022-2023</a></li>
             <li><a href="promo.html">Promo Media</a></li>
@@ -169,22 +194,83 @@ function openCity(evt, cityName) {
             <li><a href="cast.html">Casting</a></li>
 
         </ul>
+<hr>
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Music Production</h2>
+        <ul>
+            <li><a href="scores.html">Scores</a></li>
+            <li><a href="inst.html">Instrumental Covers</a></li>
+            <li><a href="midi.html">MIDI Covers</a></li>
+            <li><a href="vocal.html">Vocal Covers</a></li>
+        </ul>
+
+        <h2 class="category"><img src="./icon_bordered.png" alt="apol logo" style="width:16px;height:16px;margin: 0 5px 0 0;">Complete File Archive</h2>
+        <ul>
+              
+	<li><a href="script.html">Complete Script</a></li>
+            <li><a href="recording.html">Complete Instrumentals</a></li>
+ 	<li><a href="scores.html">Complete Scores</a></li>
+	<li><a href="ref.html">Reference Media</a></li>
+	<li><a href="stage_spec.html">Stage Spec</a></li>
+	<li><a href="animation.html">Screen Animations</a></li>
+         	<li><a href="code.html">Codes</a></li>
+            <li><a href="receipt.html">Shop List</a></li>
+        </ul>
+
     </aside>
 
-<!----------------------------------------------------------------------------------------------->
+<!---------------------------------------------sidebar content-------------------------------------------------->
+<div id="translation" class="content">
+  </div>
 
+<!------------------------------------------------------------------------------------------------>
   <main id="contentpage">
         <header>
-            <h2>
-                무대
+            <h2 style="font-family:bodoni mt;">
+                Welcome to Apollonia!
             </h2>
         </header>
         <main>
             <!-- filler words -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum quia eum odio libero obcaecati dolor facilis dolores, quibusdam eos. Iure eligendi error nostrum minus a iste ab aut vitae.
-                Voluptas odit nemo numquam sint expedita incidunt optio quisquam, sit a praesentium voluptatibus, corporis fugit sed maiores magni assumenda totam placeat, doloremque dolores consequuntur! Nihil illo itaque beatae sint cum.
-                Ut distinctio pariatur, architecto temporibus doloremque tenetur consequatur amet fuga laborum error molestias quaerat cum, laboriosam ratione, officiis soluta eveniet earum perferendis delectus repudiandae cupiditate exercitationem debitis. Ad, ratione ipsam?
+            <p>
+	<i>Apollonia Inn&Bar</i> is Cooper Union's one and only organization for theater engineering and performance. 
+	Apollonians engineer performing arts and introduce their inventions to the community through onstage vaudeville 
+	performances. The purpose of this organization is to achieve interdisciplinary success across all 
+	departments at The Cooper Union. 
+	<br>We perform every spring semester at the <i>Rose Auditorium</i> located at B1 of 40 Cooper Square. All tickets are available after
+	December 1st, 2022. For more information, contact contact@apollonia.productions.
+	<br>
+	<br>
+	<br>
+	<br><span style="font-size:40px;color:#ee2023;font-family:bodoni mt;font-weight:bold;">WE ARE NOW RECRUITING!!!!! 
+	<br>JOIN US at the FALL FESTIVAL!!<br>8/27 Sat 1-4PM @ Cooper Park</span>
+	<br>
+	<br>
+	<br>
+	<br>*Our Show for Next Spring: Musical<span style="font-size:30px;font-weight:bold;"> Stone The Stone</span>
+	<br><span style="font-size:12px;color:#b5b5b5;">(subject to change)</span>
+	<br>
+	<br>*Runtime: 70 min
+	<br>
+	<br>*Synopsis: uwu
+	<br>
+	<br>*List of Numbers:
+	<br>00. Sonrisa de Angel
+	<br>01. Twist
+	<br>02. Amorosamente
+	<br>03. The Walk
+	<br>04. In Life
+	<br>05. Infection
+	<br>06. 'Till Your First Poem
+	<br>07. Run 'N Rock 'N Roll
+	<br>08. Simon Says
+	<br>09. The Call
+	<br>10. Have I Ever
+	<br>11. That Sounds Like Me
+	<br>12. SImon Says rep.
+	<br>13. Highlist & Let's Dance
+	<br>14. Finale
             </p>
+
         </main>
             
     </main>
